@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+
+    padding: 20px;
+    padding-left: 2rem;
+}
+
+.cont-sub{
+    display: flex;
+    gap: 30px ;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Single Day', cursive;
+    font-size: 4.2rem;
+    padding: 30px 50px;
+    font-weight: bolder;
+    background-color: #02e90d;
+}
+
+input[type="text"] {
+    width: 550px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container input{
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    font-size: large;
+    border-radius: 5px;
+}
+
+
+button {
+    height: 40px;
+    padding: 0px 15px;
+    background-color:rgb(48, 48, 48);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s;
+    box-shadow: 0px 0px 5px gray;
+}
+
+button:hover {
+    background-color: rgb(105, 201, 240);
+    box-shadow: 0px 0px 5px rgb(105, 201, 240);
+}
+
+.min-hed{
+    font-size: 2rem;
+    margin: 15px;
+    font-weight: 600;
+}
+
+#ad-but{
+    font-weight: bold;
+}
+
+.tasks{
+    max-width: auto;
+    margin: 0 auto;
+
+    padding: 20px;
+    padding-left: 2.55rem;
+}
+
+#task-hed{
+    margin: 10px;
+    font-size: 1.80rem;
+}
+
